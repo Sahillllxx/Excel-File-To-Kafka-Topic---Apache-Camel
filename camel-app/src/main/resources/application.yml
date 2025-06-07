@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: camel-app
+
+app:
+  file:
+    source-directory: D:/excel/input
+    processed-directory: D:/excel/processed
+  kafka:
+    topic: flight-topic
+    brokers: localhost:29092
